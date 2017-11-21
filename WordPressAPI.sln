@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordPressAPI", "WordPressAPI\WordPressAPI.csproj", "{8BB4432D-9608-448C-9006-1BAEADBE3469}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordPressAPI", "WordPressAPI\WordPressAPI.csproj", "{8BB4432D-9608-448C-9006-1BAEADBE3469}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordPressAPI.Tests", "WordPressAPI.Tests\WordPressAPI.Tests.csproj", "{FB713425-D7EF-4DE7-861E-3C3DB1126A32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordPressAPI.Tests", "WordPressAPI.Tests\WordPressAPI.Tests.csproj", "{FB713425-D7EF-4DE7-861E-3C3DB1126A32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WP.WebAPI", "WP.WebAPI\WP.WebAPI.csproj", "{FBD2C9AC-D74E-477A-96EB-43029BC9BBF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{74782AD1-4181-4D18-8947-A192DFCED2EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +25,16 @@ Global
 		{FB713425-D7EF-4DE7-861E-3C3DB1126A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB713425-D7EF-4DE7-861E-3C3DB1126A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB713425-D7EF-4DE7-861E-3C3DB1126A32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBD2C9AC-D74E-477A-96EB-43029BC9BBF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBD2C9AC-D74E-477A-96EB-43029BC9BBF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBD2C9AC-D74E-477A-96EB-43029BC9BBF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBD2C9AC-D74E-477A-96EB-43029BC9BBF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FB713425-D7EF-4DE7-861E-3C3DB1126A32} = {74782AD1-4181-4D18-8947-A192DFCED2EF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {57884BD9-0215-4FE8-A161-31C290017435}
